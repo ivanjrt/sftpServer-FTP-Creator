@@ -4,7 +4,6 @@ chmod 701 /data
 groupadd sftpusers
 read -p "Enter a SFTP User to be added: " userList
 useradd -g sftpusers -d /upload -s /sbin/nologin  "$userList"
-echo "Enter His password: "
 passwd "$userList"
 mkdir -p /data/"$userList"/upload
 chown -R root:sftpusers /data/"$userList"
