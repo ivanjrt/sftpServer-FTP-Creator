@@ -1,5 +1,5 @@
 .DISCLAIMER
-This script is an early ALPHA status
+This script is an early Beta 1 status
 Feel free to Modify the below though, I don't offer any sort of warranty
 
 .INSTRUCTIONS
