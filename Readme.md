@@ -36,6 +36,8 @@ echo "On Ip: "
 ```
 
 #If network issues then download and install nmap
+```java
 #yum install nmap -y
 #where that ip is inbound
-#nmap -n  10.10.10.10 
+#nmap -n  10.10.10.10
+```
