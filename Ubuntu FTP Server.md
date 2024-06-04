@@ -27,12 +27,13 @@ chroot_list_enable=YES
 - Create an empty file for the chroot list:
 `sudo touch /etc/vsftp.chroot_list`
 Edit the file `sudo nano /etc/vsftp.chroot_list` <br/>
-and add one username per line. These are the users who will be restricted to their home directories. <br/>
+and add one username per line. These are the users who will be restricted to their `home directories`. <br/>
 ```Bash
 sudo systemctl restart vsftpd.service
 ```
 # Enabling Paths and configs
-By default, vsftpd creates an FTP user with a home directory of /srv/ftp. If you want to change this location (e.g., to /srv/files/ftp), create the desired directory and update the user’s home directory: <br/>
+By default, vsftpd creates an FTP user with a `home directory` of /srv/ftp. If you want to change this location (e.g., to /srv/files/ftp), create the desired directory and update the user’s home directory: <br/>
+in this case the anonymous will have access alone to this folder, and everyone else to their respective `home folder`
 ```
 sudo mkdir -p /srv/files/ftp
 sudo usermod -d /srv/files/ftp ftp
