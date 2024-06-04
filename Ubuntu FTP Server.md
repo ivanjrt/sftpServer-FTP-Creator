@@ -1,4 +1,4 @@
-# Installing the app vsftpd
+# Installing the app vsftpd (this only does FTP Service)
 ```bash
 sudo apt update
 sudo apt install vsftpd
