@@ -13,11 +13,11 @@ You can edit this file to customize your FTP server settings. <br/>
 anonymous_enable=YES
 ```
 - Adding Users:
-Make adjustments for your `ftp_user` <br/>
+- - Make adjustments for your `ftp_user` <br/>
 ```
 sudo adduser ftp_user
 ```
-- Edit the `vsftpd` configuration file at `sudo nano /etc/vsftpd.conf`
+- - Edit the `vsftpd` configuration file at `sudo nano /etc/vsftpd.conf`
 Uncomment the following lines by removing the # at the beginning: <br/>
 ```
 local_enable=YES
