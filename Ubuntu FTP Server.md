@@ -24,7 +24,7 @@ local_enable=YES
 write_enable=YES
 chroot_list_enable=YES
 ```
-- Create an empty file for the chroot list:
+- - Create an empty file for the chroot list:
 `sudo touch /etc/vsftp.chroot_list`
 Edit the file `sudo nano /etc/vsftp.chroot_list` <br/>
 and add one username per line. These are the users who will be restricted to their `home directories`. <br/>
